@@ -5,26 +5,33 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/black">
+    android:background="@color/white">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Search Address"
         android:textSize="20sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edittext"
+        android:id="@+id/edit_text"
+        android:hint="Search..."
         android:padding="12dp"
         android:singleLine="true"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/black"/>
+        android:background="@android:drawable/editbox_background"/>
+
+
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listview"/>
+        android:layout_height="match_parent"
+        android:id="@+id/list_item"
+        android:backgroundTint="@color/white"
+        />
+
 
 </LinearLayout>
