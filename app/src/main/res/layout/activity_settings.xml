@@ -10,11 +10,15 @@
 
     <ImageButton
         android:id="@+id/homebutton"
-        android:layout_width="66dp"
-        android:layout_height="63dp"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
         android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/ic_baseline_home_24"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="4dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

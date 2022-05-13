@@ -36,8 +36,10 @@ public class loading_area extends AppCompatActivity {
         arrayList.add("kajol A3104");
         arrayList.add("praveen A4107");
         arrayList.add("nidhinA5110");
-        arrayList.add("Minipalais A6112");
-        arrayList.add("Minipalais A7124");
+        arrayList.add("robertvinay A6112");
+        arrayList.add("jamespj A7124");
+        arrayList.add("edwingovind A7124");
+        arrayList.add("jeswinpl A7124");
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,8 +47,8 @@ public class loading_area extends AppCompatActivity {
                 dialog = new Dialog(loading_area.this);
                 dialog.setContentView(R.layout.dialog_searchable_spinner);
 
-                dialog.getWindow().setLayout(650, 800);
-                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                dialog.getWindow().setLayout(900, 950);
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
                 dialog.show();
                 EditText editText = dialog.findViewById(R.id.edit_text);
                 ListView listView = dialog.findViewById(R.id.list_item);
