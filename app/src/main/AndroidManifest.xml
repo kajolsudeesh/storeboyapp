@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Storeboyapp">
         <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".searchmenu"
+            android:exported="false" />
+        <activity
             android:name=".loading_area"
             android:exported="false" />
         <activity
