@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,16 +15,49 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="334dp"
         android:background="@android:drawable/editbox_background"
-        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
-        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/searchicon"
         android:hint="Search Address"
         android:padding="18dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        android:backgroundTint="@color/white"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="166dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:ignore="MissingConstraints" />
 
-</RelativeLayout>
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="213dp"
+        android:layout_height="63dp"
+        android:drawableStart="@drawable/selector"
+        android:text="ToggleButton"
+        android:textOff="Door Close"
+        android:textOn="Door Open"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:background="@drawable/buttonstyle"
+        android:text="GO"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

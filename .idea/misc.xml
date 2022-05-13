@@ -28,6 +28,13 @@
         <entry key="..\:/storeboy app/app/src/main/res/layout/activity_searchmenu.xml" value="0.20416666666666666" />
         <entry key="..\:/storeboy app/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
         <entry key="..\:/storeboy app/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/drawable/bg_track.xml" value="0.199" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.199" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/drawable/ic_baseline_toggle_off_24.xml" value="0.199" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/drawable/searchicon.xml" value="0.1" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/layout/activity_loading_area.xml" value="0.25" />
+        <entry key="..\:/storeboyapp/storeboyapp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
