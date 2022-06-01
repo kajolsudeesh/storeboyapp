@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 
@@ -21,11 +22,32 @@ public class loading_area extends AppCompatActivity {
     TextView textView;
     ArrayList<String> arrayList;
     Dialog dialog;
-
+     private ToggleButton toggleButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_area);
+
+
+//        toggleButton =findViewById(R.id.toggleButton);
+//        toggleButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if(toggleButton.isChecked()){
+//                    toggleButton.setTextColor(Color.parseColor("#FF4dFF4D"));
+//
+//                }else{
+//                    toggleButton.setTextColor(Color.parseColor("#ffffff"));
+//                }
+//            }
+//        });
+
+
+
+
+
+
+
 
         textView = findViewById(R.id.text_view);
         arrayList = new ArrayList<>();

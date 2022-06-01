@@ -24,14 +24,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="285dp"
-        android:layout_height="224dp"
+        android:layout_width="259dp"
+        android:layout_height="222dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
+        app:layout_constraintVertical_bias="0.125"
         app:srcCompat="@drawable/logo"
         tools:ignore="MissingConstraints" />
 
@@ -46,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
+        app:layout_constraintVertical_bias="0.525"
         tools:ignore="MissingConstraints" />
 
     <androidx.cardview.widget.CardView
